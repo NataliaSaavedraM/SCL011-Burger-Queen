@@ -1,5 +1,6 @@
-import * as firebase from 'firebase';
-//import 'firebase/firestore'
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+import 'firebase/database';
 firebase.initializeApp({
     apiKey: "AIzaSyBLB_FnAs4sVc_FLtGjaE-lppa6THOyATw",
     authDomain: "burger-queen-2dc5a.firebaseapp.com",

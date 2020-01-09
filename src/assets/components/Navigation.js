@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navigation.css";
-
+// en este componente se enruta la aplicacion a las distintas vistas
 const Navigation = props => {
   return (
       <nav className="navigation-style">
@@ -13,10 +13,7 @@ const Navigation = props => {
             <Link to="/Lunch">Almuerzos</Link>
           </li>
           <li>
-            <Link to="/listos">Pedidos Listos</Link>
-          </li>
-          <li>
-            <Link to="/pay">Pagados</Link>
+            <Link to="/Readyorders">Pedidos Listos</Link>
           </li>
         </ul>
       </nav>
